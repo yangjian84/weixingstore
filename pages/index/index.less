@@ -1,0 +1,78 @@
+.index_swiper{
+  swiper{
+    image{
+      width: 100%;
+    }
+  }
+} 
+
+.index_swiper{
+  swiper{
+    width: 750rpx;
+    height: 340rpx;
+  }
+} 
+
+.index_cate{
+  display: flex;
+}
+.index_cate{
+  navigator{
+    flex: 1;
+    padding: 20rpx;
+  }
+} 
+
+.index_cate{
+  navigator{
+    image {
+      width: 100%;
+    }
+  }
+} 
+
+.index_floor{
+  .floor_group{
+    .floor_title{
+      padding: 10rpx;
+      image{
+        width: 100%;
+      }
+    }
+  }
+  .floor_list{
+    //清除浮动
+    overflow: hidden;
+    navigator{
+      float: left;
+      width: 33.33%;
+      // 后面四个超链接
+      &:nth-last-child(-n+4){
+        image{
+        // 原图的宽高:232*386
+        // 232 / 386 = 33.33vm / height;
+        // 第一张图片高度height:33.33vm * 386 / 232
+          height:33.33vw * 364 /  232 /2 ;
+
+          border-left: 10rpx solid #fff;
+        }
+      }
+      // 2,3两个超链接
+      // &:nth-child(2),
+      // &:nth-child(3){
+      //   border-bottom: 10rpx solid #fff;
+      // }
+      &:nth-child(1){
+        border-left: 10rpx solid #fff;
+      }
+      &:nth-child(3),
+      &:nth-child(5){
+        border-right: 10rpx solid #fff;
+      }
+       image{
+        width: 100%;
+      }
+    }
+  }
+}
+

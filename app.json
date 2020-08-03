@@ -1,0 +1,72 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/category/index",
+    "pages/goods_list/index",
+    "pages/goods_detail/index",
+    "pages/cart/index",
+    "pages/collert/index",
+    "pages/order/index",
+    "pages/search/index",
+    "pages/user/index", 
+    "pages/feedback/index",
+    "pages/login/index",
+    "pages/auth/index",
+    "pages/pay/index"
+
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#D82008",
+    "navigationBarTitleText": "杨键",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#D82008",
+    "backgroundColor": "",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "icons/home.png",
+        "selectedIconPath": "icons/home_01.png"
+      },
+      {
+        "pagePath": "pages/category/index",
+        "text": "分类",
+        "iconPath": "icons/leibie.png",
+        "selectedIconPath": "icons/leibie_01.png"
+      },
+      {
+        "pagePath": "pages/cart/index",
+        "text": "购物",
+        "iconPath": "icons/gouwuche.png",
+        "selectedIconPath": "icons/gouwuche_01.png"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "text": "个人中心",
+        "iconPath": "icons/my.png",
+        "selectedIconPath": "icons/my_01.png"
+      }
+    ]
+  },
+  
+  "sitemapLocation": "sitemap.json"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

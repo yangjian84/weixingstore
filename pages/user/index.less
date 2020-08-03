@@ -1,0 +1,111 @@
+.user_info_wrap{
+    height: 45vh;
+    background-color: var(--themeColor);
+    position: relative;
+    .user_img_wrap{
+        position: relative;
+        .user_bg{
+            height: 45vh;
+            // 高斯模糊
+            filter: blur(10rpx);
+        }
+        .user_info{
+            position: absolute;
+            transform: translateX(-50%);
+            text-align: center;
+            left: 50%;
+            top: 20%;
+            .user_icon{
+                width: 150rpx;
+                height: 150rpx;
+                border-radius: 50%;
+            }
+            .user_name{
+                color: #fff;
+                margin-top: 40rpx;
+                font-size: 40rpx;
+            }
+        }
+    }
+    .user_btn{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 40%;
+        border: 1rpx solid green;
+        font-size: 38rpx;
+        padding: 30rpx;
+        border-radius: 10rpx;
+    }
+}
+.user_content{
+    position: relative;
+    height: 80vh;
+    background-color: #EDEBE7;
+    .user_main{
+        position: absolute;
+        width: 90%;
+        left: 50%;
+        transform: translateX(-50%);
+        top: -40rpx;
+        background-color: #fff;
+        .history_wrap{
+            display: flex;
+            navigator{
+                flex: 1;
+                text-align: center;
+                padding: 10rpx;
+                .his_num{
+                    color: var(--themeColor);
+                }
+                .his_name{
+                    font-size: 25rpx;
+                }
+            }
+        }
+        .orders_wrap{
+            background-color: #fff;
+            margin-top: 30rpx;
+            .orders_title{
+                padding: 20rpx;
+                border-bottom: 1px solid #EDEBE7;
+                border-top: 10px solid #EDEBE7;
+            }
+            .order_content{
+                display: flex;
+                navigator{
+                    flex: 1;
+                    text-align: center;
+                    padding: 15rpx 0;
+                    .iconfont{
+                        color: var(--themeColor);
+                        font-size: 40rpx;
+                    }
+                    .order_name{
+                        font-size: 20rpx;
+                    }
+                }
+            }
+        }
+        .address_wrap{
+            border-top: 15px solid #EDEBE7;
+            border-bottom: 15px solid #EDEBE7;
+            padding: 20rpx;
+            font-size: 30rpx;
+        }
+        .app_info_wrap{
+            border-bottom: 15px solid #EDEBE7;
+            .app_info_item{
+                padding: 20rpx;
+                border-bottom: 1px solid #EDEBE7;
+            }
+            .app_info_content{
+                display: flex;
+                justify-content:space-between;
+            }
+        }
+        .recommend_wrap{
+            padding: 20rpx;
+        }
+    }
+}

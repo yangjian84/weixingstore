@@ -1,0 +1,110 @@
+.user_info_wrap {
+  height: 45vh;
+  background-color: var(--themeColor);
+  position: relative;
+}
+.user_info_wrap .user_img_wrap {
+  position: relative;
+}
+.user_info_wrap .user_img_wrap .user_bg {
+  height: 45vh;
+  filter: blur(10rpx);
+}
+.user_info_wrap .user_img_wrap .user_info {
+  position: absolute;
+  transform: translateX(-50%);
+  text-align: center;
+  left: 50%;
+  top: 20%;
+}
+.user_info_wrap .user_img_wrap .user_info .user_icon {
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+}
+.user_info_wrap .user_img_wrap .user_info .user_name {
+  color: #fff;
+  margin-top: 40rpx;
+  font-size: 40rpx;
+}
+.user_info_wrap .user_btn {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 40%;
+  border: 1rpx solid green;
+  font-size: 38rpx;
+  padding: 30rpx;
+  border-radius: 10rpx;
+}
+.user_content {
+  position: relative;
+  height: 80vh;
+  background-color: #EDEBE7;
+}
+.user_content .user_main {
+  position: absolute;
+  width: 90%;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -40rpx;
+  background-color: #fff;
+}
+.user_content .user_main .history_wrap {
+  display: flex;
+}
+.user_content .user_main .history_wrap navigator {
+  flex: 1;
+  text-align: center;
+  padding: 10rpx;
+}
+.user_content .user_main .history_wrap navigator .his_num {
+  color: var(--themeColor);
+}
+.user_content .user_main .history_wrap navigator .his_name {
+  font-size: 25rpx;
+}
+.user_content .user_main .orders_wrap {
+  background-color: #fff;
+  margin-top: 30rpx;
+}
+.user_content .user_main .orders_wrap .orders_title {
+  padding: 20rpx;
+  border-bottom: 1px solid #EDEBE7;
+  border-top: 10px solid #EDEBE7;
+}
+.user_content .user_main .orders_wrap .order_content {
+  display: flex;
+}
+.user_content .user_main .orders_wrap .order_content navigator {
+  flex: 1;
+  text-align: center;
+  padding: 15rpx 0;
+}
+.user_content .user_main .orders_wrap .order_content navigator .iconfont {
+  color: var(--themeColor);
+  font-size: 40rpx;
+}
+.user_content .user_main .orders_wrap .order_content navigator .order_name {
+  font-size: 20rpx;
+}
+.user_content .user_main .address_wrap {
+  border-top: 15px solid #EDEBE7;
+  border-bottom: 15px solid #EDEBE7;
+  padding: 20rpx;
+  font-size: 30rpx;
+}
+.user_content .user_main .app_info_wrap {
+  border-bottom: 15px solid #EDEBE7;
+}
+.user_content .user_main .app_info_wrap .app_info_item {
+  padding: 20rpx;
+  border-bottom: 1px solid #EDEBE7;
+}
+.user_content .user_main .app_info_wrap .app_info_content {
+  display: flex;
+  justify-content: space-between;
+}
+.user_content .user_main .recommend_wrap {
+  padding: 20rpx;
+}

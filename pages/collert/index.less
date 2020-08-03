@@ -1,0 +1,54 @@
+.collect_main {
+    background-color: #F2F4F5;
+    .collect_title {
+        padding: 40rpx 0;
+        .cellect_tips{
+        padding: 15rpx;
+        border: 1rpx solid #ccc;
+        margin-left: 25rpx;
+        background-color: #fff;
+        }
+        .active {
+        color: var(--themeColor);
+        border-color: currentColor;
+        }
+        .cellect_tips{
+
+        }
+    }
+    .collect_content{
+        background-color: #fff;
+        .goods_item{
+            display: flex;
+            border-bottom: 1px solid #ccc;
+            // 左侧
+            .goods_img_wrap{
+                flex:2;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                image{
+                    width: 70%;
+                }
+            }
+            // 右侧
+            .goods_info_wrap{
+                flex: 3;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                .goods_name{
+                    display: -webkit-box;//将对象作为弹性伸缩盒子模型显示
+                    overflow: hidden;//超出文本隐藏
+                    -webkit-line-clamp: 2;//表示显示行数
+                    -webkit-box-orient: vertical;//从上到下垂直排列子元素
+    
+                }
+                .goods_price{
+                    color: var(--themeColor);
+                    font-size: 32rpx;
+                }
+            }
+        }
+    }
+}

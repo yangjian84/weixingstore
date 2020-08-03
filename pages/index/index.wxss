@@ -1,0 +1,44 @@
+.index_swiper swiper image {
+  width: 100%;
+}
+.index_swiper swiper {
+  width: 750rpx;
+  height: 340rpx;
+}
+.index_cate {
+  display: flex;
+}
+.index_cate navigator {
+  flex: 1;
+  padding: 20rpx;
+}
+.index_cate navigator image {
+  width: 100%;
+}
+.index_floor .floor_group .floor_title {
+  padding: 10rpx;
+}
+.index_floor .floor_group .floor_title image {
+  width: 100%;
+}
+.index_floor .floor_list {
+  overflow: hidden;
+}
+.index_floor .floor_list navigator {
+  float: left;
+  width: 33.33%;
+}
+.index_floor .floor_list navigator:nth-last-child(-n+4) image {
+  height: 26.14681034vw;
+  border-left: 10rpx solid #fff;
+}
+.index_floor .floor_list navigator:nth-child(1) {
+  border-left: 10rpx solid #fff;
+}
+.index_floor .floor_list navigator:nth-child(3),
+.index_floor .floor_list navigator:nth-child(5) {
+  border-right: 10rpx solid #fff;
+}
+.index_floor .floor_list navigator image {
+  width: 100%;
+}
